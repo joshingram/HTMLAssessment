@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Assessment</title>
+  </head>
+  <body>
+    <div id="Text">
+    <h1>TEXT</h1>
+
+    <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.  Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur.</p>
+
+    <p style="margin-left:10%; margin-right:10%;"><em><strong>Ut</strong> enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. </em></p>
+
+    <p><strong>Excepteur</strong> sint occaecat cupidatat
+      non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+
+    <div id="table">
+    <h1>TABLE</h1>
+    <table>
+      <tr id="row1">
+        <td></td>
+        <td colspan="5">Scores by quarter</td>
+      </tr>
+
+      <tr id="row2">
+        <td rowspan="2"><strong>Team Name</strong></td>
+        <td colspan="2"><strong>First Half</strong></td>
+        <td colspan="2"><strong>Second Half</strong></td>
+        <td rowspan="2"><strong>Final</strong></td>
+      </tr>
+
+      <tr id="row3">
+        <td style='text-align:center; vertical-align:middle'><strong>Q1</strong></td>
+        <td style='text-align:center; vertical-align:middle'><strong>Q2</strong></td>
+        <td style='text-align:center; vertical-align:middle'><strong>Q3</strong></td>
+        <td style='text-align:center; vertical-align:middle'><strong>Q4</strong></td>
+        <td style='text-align:center; vertical-align:middle'></td>
+      </tr>
+
+      <tr id="row4">
+        <td>Colorado</td>
+        <td>0</td>
+        <td>10</td>
+        <td>0</td>
+        <td>0</td>
+        <td>10</td>
+      </tr>
+
+      <tr id="row5">
+        <td>USAFA</td>
+        <td>13</td>
+        <td>7</td>
+        <td>7</td>
+        <td>14</td>
+        <td>41</td>
+      </tr>
+
+      <tr id="row6">
+        <td style='text-align:center; vertical-align:middle'><strong>Total</strong></td>
+        <td style='text-align:center; vertical-align:middle'><strong>13</strong></td>
+        <td style='text-align:center; vertical-align:middle'><strong>17</strong></td>
+        <td style='text-align:center; vertical-align:middle'><strong>7</strong></td>
+        <td style='text-align:center; vertical-align:middle'><strong>14</strong></td>
+        <td style='text-align:center; vertical-align:middle'><strong>51</strong></td>
+      </tr>
+
+   </table>
+   </div>
+
+   <div id="list">
+    <h1>LIST</h1>
+      <ul>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Colorado_Buffaloes_wordmark.svg/150px-Colorado_Buffaloes_wordmark.svg.png" alt="CU logo"></li>
+        <a href="https://en.wikipedia.org/wiki/Colorado_Buffaloes_football">CU Buffaloes</a>
+        <ul>
+          <li>Coach: Karl Dorrell</li>
+          <li>QB</li>
+           <ol>
+             <li>Colton Allen</li>
+             <li>Drew Carter</li>
+             <li>Maddox Kopp</li>
+          </ol>
+        </ul>
+      </ul>
+      <ul>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Air_Force_Falcons_logo.svg/125px-Air_Force_Falcons_logo.svg.png" alt="USAFA logo"></li>
+        <a href="https://en.wikipedia.org/wiki/Air_Force_Falcons_football">USAFA Falcons</a>
+        <ul>
+          <li>Coach: Troy Calhoun</li>
+          <li>QB</li>
+           <ol>
+             <li>Ben Brittain</li>
+             <li>Haaziq Daniels</li>
+             <li>Jackson Darlington</li>
+          </ol>
+        </ul>
+      </ul>
+  </div>
+
+  <div id="form">
+    <h1>FORM</h1>
+    First: <input type="text" name="firstName"> Last: <input type="text" name="lastname"><br><br>
+    Favorite Sport: <br>
+    <select name="favorite-sport" id="favorite-sport">
+      <option value="Football">Football</option>
+      <option value="Baseball">Baseball</option>
+      <option value="Hockey">Hockey</option>
+      <option value="Motocross">Motocross</option>
+   </select><br><br>
+
+   I have: <input type="checkbox" name="attended">Attended
+          <input type="checkbox" name="played">Played
+          <input type="checkbox" name="coached">Coached
+          <input type="checkbox" name="bet-on">Bet on <br>
+   this sport. <br><br>
+   For this sport I prefer the: <input type="radio" id="Amateur" name="prefer">Amateur
+          <input type="radio" id="College" name="prefer">College
+          <input type="radio" id="Professional" name="prefer">Professional  <br><br>
+   <input type="submit" value="Submit Query">
+  </div>
+ </body>
+</html>
