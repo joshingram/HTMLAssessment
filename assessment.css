@@ -1,0 +1,73 @@
+/* US1 */
+h2, h3, h4, h5{
+  color: blue;
+  font-family: sans-serif;
+}
+/* US2 */
+table>thead>tr>th{
+  color: blue;
+  font-weight: bold;
+}
+
+table {
+  border: black 3px solid;
+  text-align: center;
+}
+/* us3 */
+ul{
+  list-style-type: square;
+}
+/* us4 */
+a:hover{
+  background-color: orange;
+  text-decoration: none;
+}
+/* us5 */
+blockquote{
+  background-color: darkblue;
+  color: white;
+}
+/* us6 */
+ul li:first-child ul{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat
+}
+
+ul li:last-child ul{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat
+}
+ul img{
+  opacity: 0;
+}
+
+/* us7 */
+form ul{
+  list-style-type: none;
+}
+/* stretch1 */
+ul ol li:first-child{
+  font-weight: bold;
+}
+/* stretch2 */
+table tr:nth-child(even){
+  background-color: lightblue;
+}
+/* stretch3 */
+/* ul li:first-child ul::before{
+
+  content:"";
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  position: fixed;
+  width: 100px;
+  height 100px;
+  top: 540px;
+  right: 0px;
+  bottom: 0px;
+  left: 100px;
+  background-size: contain;
+  opacity: 0.5;
+  background-repeat: no-repeat
+} */
